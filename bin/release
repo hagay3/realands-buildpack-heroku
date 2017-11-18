@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-
-mkdir ~/bin
-wget https://chromedriver.storage.googleapis.com/2.32/chromedriver_linux64.zip
-unzip chromedriver_linux64.zip -d ~/bin/
+echo "---"
+echo "addons:"
+echo "config_vars:"
+echo "  PATH: $PATH"
+echo "default_process_types:"
