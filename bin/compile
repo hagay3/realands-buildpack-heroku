@@ -1,11 +1,4 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
-echo "pwd"; pwd
-mkdir ~/bin
-cd ~/bin
-echo "pwd"; pwd
-wget https://chromedriver.storage.googleapis.com/2.32/chromedriver_linux64.zip
-unzip chromedriver_linux64.zip -d ~/bin/
-
-Xvfb :0 -ac -screen 0 1024x768x24 &
+echo "compile dummy"
